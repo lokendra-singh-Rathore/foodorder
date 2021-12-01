@@ -1,1 +1,1 @@
-web: gunicorn foodapp.asgi --log-file-
+web: gunicorn foodapp.asgi --log-file -
