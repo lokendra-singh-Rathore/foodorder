@@ -73,8 +73,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'foodapp.wsgi.application'
-#ASGI_APPLICATION = 'foodapp.asgi.application'
+#WSGI_APPLICATION = 'foodapp.wsgi.application'
+ASGI_APPLICATION = 'foodapp.asgi.application'
 
 CHANNEL_LAYERS = {
     "default": {
