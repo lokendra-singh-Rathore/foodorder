@@ -1,1 +1,3 @@
-web: gunicorn foodapp.asgi --log-file -
+release: python manage.py migrate
+web: daphne foodapp.asgi:application --port $PORT --bind 0.0.0.0 -v2
+
