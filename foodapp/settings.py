@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-$a66+%)!(d9*okblt!t9ech_7aqed(frp8#jcl=-@*q(kczd6x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lokendra-foodapp.herokuapp.com']
 
 
 
